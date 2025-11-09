@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FUPortal</string>
+    <string-array name="user_status_filters">
+        <item>All Statuses</item>
+        <item>Active</item>
+        <item>Deactive</item>
+    </string-array>
+</resources>

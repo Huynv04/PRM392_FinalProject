@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54432850605",
+    "project_id": "fuportal-f58f9",
+    "storage_bucket": "fuportal-f58f9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54432850605:android:62808c78c3607fc2599c24",
+        "android_client_info": {
+          "package_name": "com.example.fuportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADDiiKSFi2K1z7ljiy1hdkJEGqNJh-KhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

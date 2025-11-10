@@ -14,6 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FUPortal">
         <activity
+            android:name=".core.data.student.ViewLecturerInfoActivity"
+            android:exported="false"
+            android:parentActivityName=".core.data.student.StudentMainActivity"/>
+        <activity
             android:name=".core.data.admin.AdminMainActivity"
             android:exported="false" />
         <activity
@@ -22,7 +26,6 @@
         <activity
             android:name=".core.data.academicAffairs.AcademicAffairsMainActivity"
             android:exported="true" />
-
         <activity
             android:name=".core.data.student.StudentMainActivity"
             android:exported="false" />
@@ -50,22 +53,18 @@
         <activity
             android:name=".auth.ResetPasswordActivity"
             android:exported="false" />
-
         <activity
             android:name=".core.data.academicAffairs.ManageFacultiesActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.AcademicAffairsMainActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.AddEditFacultyActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.ManageFacultiesActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.ManageMajorsActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.AcademicAffairsMainActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.AddEditMajorActivity"
             android:exported="false"
@@ -74,17 +73,14 @@
             android:name=".core.data.academicAffairs.ManageCoursesActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.AcademicAffairsMainActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.AddEditCourseActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.ManageCoursesActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.ManageCampusActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.AcademicAffairsMainActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.AddEditCampusActivity"
             android:exported="false"
@@ -93,129 +89,102 @@
             android:name=".core.data.academicAffairs.ManageSemestersActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.AcademicAffairsMainActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.AddEditSemesterActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.ManageSemestersActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.ManageClassesActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.AcademicAffairsMainActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.AddEditClassActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.ManageClassesActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.ManageSchedulesActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.ManageClassesActivity" />
-
         <activity
             android:name=".core.data.academicAffairs.AddScheduleActivity"
             android:exported="false"
             android:parentActivityName=".core.data.academicAffairs.ManageSchedulesActivity" />
-
         <activity
             android:name=".core.data.student.CourseRegistrationActivity"
             android:exported="false"
             android:parentActivityName=".core.data.student.StudentMainActivity" />
-
         <activity
             android:name=".core.data.student.TimetableActivity"
             android:exported="false"
             android:parentActivityName=".core.data.student.StudentMainActivity" />
-
-
         <activity
             android:name=".core.data.student.CourseDetailActivity"
             android:exported="false"
             android:parentActivityName=".core.data.student.CourseRegistrationActivity" />
-
         <activity
             android:name=".core.data.lecturer.LecturerClassListActivity"
             android:exported="false"
             android:parentActivityName=".core.data.lecturer.LecturerMainActivity" />
-
         <activity
             android:name=".core.data.lecturer.ManageAttendanceActivity"
             android:exported="false"
             android:parentActivityName=".core.data.lecturer.ClassMenuActivity" />
-
         <activity
             android:name=".core.data.lecturer.ClassMenuActivity"
             android:exported="false"
             android:parentActivityName=".core.data.lecturer.LecturerClassListActivity" />
-
         <activity
             android:name=".core.data.lecturer.StudentListForGradingActivity"
             android:exported="false"
             android:parentActivityName=".core.data.lecturer.ClassMenuActivity" />
-
         <activity
             android:name=".core.data.lecturer.StudentGradeEntryActivity"
             android:exported="false"
             android:parentActivityName=".core.data.lecturer.StudentListForGradingActivity" />
-
         <activity
             android:name=".core.data.student.StudentClassListActivity"
             android:exported="false"
             android:parentActivityName=".core.data.student.StudentMainActivity" />
-
         <activity
             android:name=".core.data.student.ViewGradeDetailActivity"
             android:exported="false"
             android:parentActivityName=".core.data.student.StudentClassListActivity" />
-
         <activity
             android:name=".core.data.student.ViewAttendanceDetailActivity"
             android:exported="false"
             android:parentActivityName=".core.data.student.StudentClassListActivity" />
-
         <activity
             android:name=".core.data.examinationDept.ManageExamSchedulesActivity"
             android:exported="false"
             android:parentActivityName=".core.data.examinationDept.ExaminationDeptMainActivity" />
-
         <activity
             android:name=".core.data.examinationDept.AddEditExamScheduleActivity"
             android:exported="false"
             android:parentActivityName=".core.data.examinationDept.ManageExamSchedulesActivity" />
-
         <activity
             android:name=".core.data.student.ViewExamScheduleActivity"
             android:exported="false"
             android:parentActivityName=".core.data.student.StudentMainActivity" />
-
-
         <activity
             android:name=".core.data.admin.ManageUsersActivity"
             android:exported="false"
             android:parentActivityName=".core.data.admin.AdminMainActivity" />
-
         <activity
             android:name=".core.data.admin.AddEditUserActivity"
             android:exported="false"
             android:parentActivityName=".core.data.admin.ManageUsersActivity" />
-
         <activity
             android:name=".core.data.admin.ManageAppTypesActivity"
             android:exported="false"
             android:parentActivityName=".core.data.admin.AdminMainActivity" />
-
         <activity
             android:name=".core.data.admin.AddEditAppTypeActivity"
             android:exported="false"
             android:parentActivityName=".core.data.admin.ManageAppTypesActivity" />
-
         <activity
             android:name=".core.data.student.ApplicationManagementActivity"
             android:exported="false"
             android:parentActivityName=".core.data.student.StudentMainActivity" />
-
         <activity
             android:name=".core.data.student.SendApplicationActivity"
             android:exported="false"
@@ -223,19 +192,16 @@
         <activity
             android:name=".core.data.student.ViewApplicationsActivity"
             android:exported="false"
-            android:parentActivityName=".core.data.student.ApplicationManagementActivity"/>
-
-
+            android:parentActivityName=".core.data.student.ApplicationManagementActivity" />
         <activity
             android:name=".core.data.academicAffairs.ManageApplicationsActivity"
             android:exported="false"
-            android:parentActivityName=".core.data.academicAffairs.AcademicAffairsMainActivity"/>
-
+            android:parentActivityName=".core.data.academicAffairs.AcademicAffairsMainActivity" />
         <activity
             android:name=".core.data.academicAffairs.ProcessApplicationActivity"
             android:exported="false"
-            android:parentActivityName=".core.data.academicAffairs.ManageApplicationsActivity"/>
-    </application>
+            android:parentActivityName=".core.data.academicAffairs.ManageApplicationsActivity" />
 
+    </application>
 
 </manifest>

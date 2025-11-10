@@ -117,5 +117,11 @@ public class StudentMainActivity extends AppCompatActivity {
                 }); // (UC30)
         btnViewAnnouncements.setOnClickListener(notImplementedListener); // (UC32)
 
+        btnViewLecturerInfo.setOnClickListener(v -> {
+            Intent intent = new Intent(StudentMainActivity.this, ViewLecturerInfoActivity.class);
+            startActivity(intent);
+        });
+
+
     }
 }

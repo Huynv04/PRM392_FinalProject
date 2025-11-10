@@ -23,6 +23,8 @@ public interface UserDao {
     @Update
     void updateUser(User user);
 
+    @Query("SELECT * FROM Users WHERE roleID = :roleId")
+    List<User> getUsersByRoleId(int roleId);
 
     @Query("SELECT * FROM Users WHERE (username = :loginInput OR gmail = :loginInput) LIMIT 1")
     User findUserByLoginInput(String loginInput);
@@ -77,5 +79,7 @@ public interface UserDao {
             "OR LOWER(r.roleName) LIKE '%' || :searchQuery || '%' " +
             ") " +
             "ORDER BY u.userCode ASC")
+
+
     List<UserDetail> getFilteredUserDetails(String searchQuery, int statusFilter);
 }

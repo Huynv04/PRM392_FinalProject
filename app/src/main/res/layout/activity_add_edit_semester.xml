@@ -6,9 +6,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".academicAffairs.AddEditSemesterActivity">
+    tools:context=".core.data.academicAffairs.AddEditSemesterActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+<com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <androidx.appcompat.widget.Toolbar

@@ -45,6 +45,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
         holder.tvUserRole.setText(user.roleName + " - " + campusInfo);
 
         holder.btnEdit.setOnClickListener(v -> listener.onEditClick(user));
+        holder.btnDelete.setText(user.isActive ? "Deactivate" : "Reactivate");
         holder.btnDelete.setOnClickListener(v -> listener.onDeleteClick(user));
     }
 
